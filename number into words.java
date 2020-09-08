@@ -76,3 +76,17 @@ else if(n<1000)
      else
      System.out.println(numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
   }
+else if(n<10000)
+{
+if(hundreds==0&&tens==0&&units==0)
+System.out.println(numNames[thousands]+" Thousand");
+else if(hundreds==0&&tens==0&&units!=0)
+System.out.println(numNames[thousands]+" Thousand and"+numNames[units]);
+else if(hundreds==0&&tens!=0)
+System.out.println(numNames[thousands]+" Thousand and"+tensNames[tens]+""+numNames[units]);
+else if(hundreds!=0&&tens==0&&units==0)
+System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred");
+else
+System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+}
+
