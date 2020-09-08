@@ -71,24 +71,40 @@ else if(n<100)
 else if(n<1000)
   {
      if(tens==0&&units==0)
-     System.out.println(numNames[hundreds]+" Hundred");
+     {
+          System.out.println(numNames[hundreds]+" Hundred");
+     }
      else if(tens==0&&units!=0)
-     System.out.println(numNames[hundreds]+" Hundred and"+numNames[units]);
+     {
+          System.out.println(numNames[hundreds]+" Hundred and"+numNames[units]);
+     }
      else
-     System.out.println(numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+     {
+          System.out.println(numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+     }
   }
 else if(n<10000)
 {
      if(hundreds==0&&tens==0&&units==0)
-     System.out.println(numNames[thousands]+" Thousand");
+     {
+          System.out.println(numNames[thousands]+" Thousand");
+     }
      else if(hundreds==0&&tens==0&&units!=0)
-     System.out.println(numNames[thousands]+" Thousand and"+numNames[units]);
+     {
+          System.out.println(numNames[thousands]+" Thousand and"+numNames[units]);
+     }
      else if(hundreds==0&&tens!=0)
-     System.out.println(numNames[thousands]+" Thousand and"+tensNames[tens]+""+numNames[units]);
+     {
+          System.out.println(numNames[thousands]+" Thousand and"+tensNames[tens]+""+numNames[units]);
+     }
      else if(hundreds!=0&&tens==0&&units==0)
-     System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred");
+     {
+          System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred");
+     }
      else
-     System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+     {
+          System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+     }
 }
 
 else System.out.println("Please enter a four digit whole number!(0-9999)");
