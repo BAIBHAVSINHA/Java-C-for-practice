@@ -17,3 +17,26 @@ private static final String[] tensNames = {
 " Eighty",
 " Ninety"
 };
+private static final String[] numNames = {
+"",
+" One",
+" Two",
+" Three",
+" Four",
+" Five",
+" Six",
+" Seven",
+" Eight",
+" Nine",
+" Ten",
+" Eleven",
+" Twelve",
+" Thirteen",
+" Fourteen",
+" Fifteen",
+" Sixteen",
+" Seventeen",
+" Eighteen",
+" Nineteen"
+};
+
