@@ -90,3 +90,6 @@ else
 System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
 }
 
+else System.out.println("Please enter a four digit whole number!(0-9999)");
+}
+}
