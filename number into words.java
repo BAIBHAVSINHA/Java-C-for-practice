@@ -2,10 +2,10 @@ Write a program in java to change number into words ?
 for eg:-> 2341 into Two Thousand Three Hundred Fourthy One
 
 import java.util.Scanner;
-
-public class Num2Txt {
-
-private static final String[] tensNames = {
+public class Num2Txt 
+{
+private static final String[] tensNames = 
+{
 "",
 " Ten",
 " Twenty",
@@ -17,7 +17,8 @@ private static final String[] tensNames = {
 " Eighty",
 " Ninety"
 };
-private static final String[] numNames = {
+private static final String[] numNames = 
+{
 "",
 " One",
 " Two",
@@ -78,16 +79,16 @@ else if(n<1000)
   }
 else if(n<10000)
 {
-if(hundreds==0&&tens==0&&units==0)
-System.out.println(numNames[thousands]+" Thousand");
-else if(hundreds==0&&tens==0&&units!=0)
-System.out.println(numNames[thousands]+" Thousand and"+numNames[units]);
-else if(hundreds==0&&tens!=0)
-System.out.println(numNames[thousands]+" Thousand and"+tensNames[tens]+""+numNames[units]);
-else if(hundreds!=0&&tens==0&&units==0)
-System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred");
-else
-System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+     if(hundreds==0&&tens==0&&units==0)
+     System.out.println(numNames[thousands]+" Thousand");
+     else if(hundreds==0&&tens==0&&units!=0)
+     System.out.println(numNames[thousands]+" Thousand and"+numNames[units]);
+     else if(hundreds==0&&tens!=0)
+     System.out.println(numNames[thousands]+" Thousand and"+tensNames[tens]+""+numNames[units]);
+     else if(hundreds!=0&&tens==0&&units==0)
+     System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred");
+     else
+     System.out.println(numNames[thousands]+" Thousand"+numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
 }
 
 else System.out.println("Please enter a four digit whole number!(0-9999)");
