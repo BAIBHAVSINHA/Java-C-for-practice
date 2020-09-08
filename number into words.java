@@ -56,4 +56,23 @@ System.out.println("In the hundreds place: " +hundreds);
 System.out.println("In the tens place: " +tens);
 System.out.println("In the units place: " +units);
 if(n==0)
-  
+   {
+      System.out.println("Zero");
+   }
+else if(n<10)
+   {
+      System.out.println(numNames[units]);
+   }
+else if(n<100)
+   {
+      System.out.println(tensNames[tens]+""+numNames[units]);
+   }
+else if(n<1000)
+  {
+     if(tens==0&&units==0)
+     System.out.println(numNames[hundreds]+" Hundred");
+     else if(tens==0&&units!=0)
+     System.out.println(numNames[hundreds]+" Hundred and"+numNames[units]);
+     else
+     System.out.println(numNames[hundreds]+" Hundred and"+tensNames[tens]+""+numNames[units]);
+  }
