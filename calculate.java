@@ -17,23 +17,24 @@ Sol:->
        {
          // TODO Auto-generated method stub
           Scanner reader = new Scanner(System.in);
-System.out.println("Enter first number numerator: ");
-int num1 = reader.nextInt();
-System.out.println("Enter first number denominator: ");
-int den1 = reader.nextInt();
-System.out.println("Enter second number numerator: ");
-int num2 = reader.nextInt();
-System.out.println("Enter second number denominator: ");
-int den2 = reader.nextInt();
-reader.close();
+          System.out.println("Enter first number numerator: ");
+          int num1 = reader.nextInt();
+          System.out.println("Enter first number denominator: ");
+          int den1 = reader.nextInt();
+          System.out.println("Enter second number numerator: ");
+          int num2 = reader.nextInt();
+          System.out.println("Enter second number denominator: ");
+          int den2 = reader.nextInt();
+           
+       reader.close();
 
-//IMPORTANT: CAST NUMERATOR TO DOUBLE
-double number1 = (double)num1/den1;
-double number2 = (double)num2/den2;
-System.out.println("Sum: "+(number1+number2));
-System.out.println("Subtraction: "+(number1-number2));
-System.out.println("Multiplication: "+(number1*number2));
-System.out.println("Division: "+(number1/number2));
+        //IMPORTANT: CAST NUMERATOR TO DOUBLE
+         double number1 = (double)num1/den1;
+         double number2 = (double)num2/den2;
+         System.out.println("Sum: "+(number1+number2));
+         System.out.println("Subtraction: "+(number1-number2));
+         System.out.println("Multiplication: "+(number1*number2));
+         System.out.println("Division: "+(number1/number2));
 
 
 }
