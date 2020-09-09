@@ -18,3 +18,7 @@ public static void main(String[] args) {
 // TODO Auto-generated method stub
 
 Scanner reader = new Scanner(System.in);
+System.out.println("Enter first number numerator: ");
+int num1 = reader.nextInt();
+System.out.println("Enter first number denominator: ");
+int den1 = reader.nextInt();
