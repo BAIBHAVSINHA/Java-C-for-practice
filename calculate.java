@@ -11,13 +11,12 @@ Q. Write a program that reads from the user four integers representing the numer
       
 Sol:->
     import java.util.Scanner;
-
-public class FractionCalculations {
-
-public static void main(String[] args) {
-// TODO Auto-generated method stub
-
-Scanner reader = new Scanner(System.in);
+    public class FractionCalculations
+    {
+       public static void main(String[] args) 
+       {
+         // TODO Auto-generated method stub
+          Scanner reader = new Scanner(System.in);
 System.out.println("Enter first number numerator: ");
 int num1 = reader.nextInt();
 System.out.println("Enter first number denominator: ");
