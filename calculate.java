@@ -9,4 +9,12 @@ Q. Write a program that reads from the user four integers representing the numer
           The multiplication is: 2.4
           The division is: 0.9375 
       
-Sol:->      
+Sol:->
+    import java.util.Scanner;
+
+public class FractionCalculations {
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+
+Scanner reader = new Scanner(System.in);
