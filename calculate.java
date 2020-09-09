@@ -22,3 +22,7 @@ System.out.println("Enter first number numerator: ");
 int num1 = reader.nextInt();
 System.out.println("Enter first number denominator: ");
 int den1 = reader.nextInt();
+System.out.println("Enter second number numerator: ");
+int num2 = reader.nextInt();
+System.out.println("Enter second number denominator: ");
+int den2 = reader.nextInt();
