@@ -26,3 +26,8 @@ System.out.println("Enter second number numerator: ");
 int num2 = reader.nextInt();
 System.out.println("Enter second number denominator: ");
 int den2 = reader.nextInt();
+reader.close();
+
+//IMPORTANT: CAST NUMERATOR TO DOUBLE
+double number1 = (double)num1/den1;
+double number2 = (double)num2/den2;
