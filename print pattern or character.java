@@ -15,7 +15,16 @@ Output:
 
  
  Sol:->
-static void findPattern(String str,String pattern){
-String str2[]=str.split("\\s");
-Pattern p=Pattern.compile(pattern);
-Matcher match=null;
+       static void findPattern(String str,String pattern)
+          {
+             String str2[]=str.split("\\s");
+             Pattern p=Pattern.compile(pattern);
+             Matcher match=null;
+             int spaceCount=1;
+             int count=0;
+             for(int i=0;i<str2.length;i++)
+             {
+                match=p.matcher(str2[i]);
+                if(match.find())
+                {
+                    count=match.start();
