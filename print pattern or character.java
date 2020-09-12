@@ -28,3 +28,6 @@ Output:
                 if(match.find())
                 {
                     count=match.start();
+                    spaceCount=i;
+                }
+             }
