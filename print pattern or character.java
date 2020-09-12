@@ -31,3 +31,10 @@ Output:
                     spaceCount=i;
                 }
              }
+             spaceCount++;
+               /*while(match.find())
+               {
+                count=match.start();
+               }*/
+             System.out.println(spaceCount+"."+count+" : "+str);
+          }
