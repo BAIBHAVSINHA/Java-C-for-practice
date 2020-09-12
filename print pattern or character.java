@@ -12,3 +12,10 @@ Output:
 2.1:How could this happen?
 1.4:Re-mould the nearest output.
 1.1:would this always happen?
+
+ 
+ Sol:->
+static void findPattern(String str,String pattern){
+String str2[]=str.split("\\s");
+Pattern p=Pattern.compile(pattern);
+Matcher match=null;
