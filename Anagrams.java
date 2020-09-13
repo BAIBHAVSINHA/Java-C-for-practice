@@ -20,3 +20,9 @@ for (int i = 0; i < s1.length(); i++) {
            return false;
         }
     }
+for (int count : charCounts.values()) {
+        if (count != 0) return false;
+    }
+
+    return true;
+}
