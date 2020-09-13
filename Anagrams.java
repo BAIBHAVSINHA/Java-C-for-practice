@@ -13,4 +13,10 @@ for (int i = 0; i < s1.length(); i++) {
            charCounts.put(s1.charAt(i), 1);
       }
     }
-    
+    for (int i = 0; i < s2.length(); i++) {
+        if (charCounts.containsKey(s2.charAt(i))) {
+           charCounts.put(s2.charAt(i), charCounts.get(s2.charAt(i)) - 1);
+        } else {
+           return false;
+        }
+    }
