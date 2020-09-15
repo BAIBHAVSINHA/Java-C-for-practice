@@ -2,7 +2,6 @@ Q. Segregate 0s and 1s in an array?
 
   Sol:->
     using System; 
-  
 class GFG { 
       
     // function to segregate 0s and 1s 
@@ -40,7 +39,6 @@ class GFG {
         int n = arr.Length; 
   
         segregate0and1(arr, n); 
-        print(arr, n); 
-          
+        print(arr, n);          
     } 
 } 
