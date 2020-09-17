@@ -2,10 +2,6 @@ Program for array rotation?
 
 Sol:->
 #include <stdio.h> 
-  
-/* Function to left Rotate arr[] of size n by 1*/
-void leftRotatebyOne(int arr[], int n); 
-  
 /*Function to left rotate arr[] of size n by d*/
 void leftRotate(int arr[], int d, int n) 
 { 
