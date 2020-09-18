@@ -1,4 +1,5 @@
-class Staticclass{
+class Staticclass
+{
    private static String str = "BeginnersBook";
    //Static class
    static class MyNestedClass
@@ -13,7 +14,6 @@ class Staticclass{
 	    */
 	   System.out.println(str);
 	}
-
    }
    public static void main(String args[])
    {
