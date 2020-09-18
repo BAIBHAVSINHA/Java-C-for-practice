@@ -1,3 +1,6 @@
+Q. To find difference between 2d array?
+    
+Sol:->    
 #include<stdio.h>
 int main()
 {
