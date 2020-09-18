@@ -19,7 +19,7 @@ public class Addingbinaryno {
 	System.out.print("Enter second binary number: ");
 	b2 = scanner.nextLong();
 
-	//closing scanner after use to avoid memory leak
+	//closing scanner to avoid memory leak
 	scanner.close();
 	while (b1 != 0 || b2 != 0)
 	{
