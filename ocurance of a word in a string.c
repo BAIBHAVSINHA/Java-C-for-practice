@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX_SIZE 100 // Maximum string size
-
 /* Function declaration */
 int countOccurrences(char * str, char * toSearch);
-
 
 int main()
 {
@@ -17,15 +15,12 @@ int main()
     gets(str);
     printf("Enter word to search occurrences: ");
     gets(toSearch);
-
     count = countOccurrences(str, toSearch);
 
     printf("Total occurrences of '%s': %d", toSearch, count);
 
     return 0;
 }
-
-
 /**
  * Get, total number of occurrences of a word in a string
  */
@@ -33,7 +28,6 @@ int countOccurrences(char * str, char * toSearch)
 {
     int i, j, found, count;
     int stringLen, searchLen;
-
     stringLen = strlen(str);      // length of string
     searchLen = strlen(toSearch); // length of word to be searched
 
@@ -51,12 +45,10 @@ int countOccurrences(char * str, char * toSearch)
                 break;
             }
         }
-
         if(found == 1)
         {
             count++;
         }
     }
-
     return count;
 }
