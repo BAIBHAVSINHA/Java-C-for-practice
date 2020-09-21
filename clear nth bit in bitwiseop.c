@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int num, n, newNum;
@@ -19,6 +18,5 @@ int main()
     printf("Bit cleared successfully.\n\n");
     printf("Number before clearing %d bit: %d (in decimal)\n", n, num);
     printf("Number after clearing %d bit: %d (in decimal)\n", n, newNum);
-
     return 0;
 }
