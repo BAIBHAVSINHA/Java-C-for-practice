@@ -3,7 +3,8 @@
 #include<stdlib.h>
 #define MAX_SIZE 100
 
-int main() {
+int main()
+{
     int item, choice, i;
     int arr_queue[MAX_SIZE];
     int rear = 0;
@@ -11,16 +12,21 @@ int main() {
     int exit = 1;
 
     printf("\nSimple Queue Example - Array");
-    do {
+    do 
+    {
         printf("\n\n Queue Main Menu");
         printf("\n1.Insert \n2.Remove \n3.Display \nOthers to exit");
         printf("\nEnter Your Choice : ");
         scanf("%d", &choice);
-        switch (choice) {
+        switch (choice) 
+        {
             case 1:
                 if (rear == MAX_SIZE)
+                {
                     printf("\n## Queue Reached Max!!");
-                else {
+                }
+                else
+                {
                     printf("\nEnter The Value to be Insert : ");
                     scanf("%d", &item);
                     printf("\n## Position : %d , Insert Value  : %d ", rear + 1, item);
@@ -29,8 +35,11 @@ int main() {
                 break;
             case 2:
                 if (front == rear)
+                {
                     printf("\n## Queue is Empty!");
-                else {
+                }
+                else 
+                {
                     printf("\n## Position : %d , Remove Value  : %d ", front, arr_queue[front]);
                     front++;
                 }
@@ -44,7 +53,7 @@ int main() {
                 exit = 0;
                 break;
         }
-    } while (exit);
-
+    }
+    while (exit);
     return 0;
 }
