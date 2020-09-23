@@ -1,3 +1,6 @@
+Q. Binary Search using recursion?
+    sol:->
+
 #include <stdio.h>
 void binary_search(int [], int, int, int);
 void bubble_sort(int [], int);
