@@ -1,9 +1,7 @@
 Median of two sorted arrays of same size?
-
 Sol:->
 
   #include <stdio.h> 
-  
 /* This function returns median of ar1[] and ar2[]. 
    Assumptions in this function: 
    Both ar1[] and ar2[] are sorted arrays 
@@ -14,7 +12,6 @@ int getMedian(int ar1[], int ar2[], int n)
     int j = 0; /* Current index of i/p array ar2[] */
     int count; 
     int m1 = -1, m2 = -1; 
-  
     /* Since there are 2n elements, median will be average 
      of elements at index n-1 and n in the array obtained after 
      merging ar1 and ar2 */
@@ -28,7 +25,6 @@ int getMedian(int ar1[], int ar2[], int n)
             m2 = ar2[0]; 
             break; 
         } 
-  
         /*Below is to handle case where all elements of ar2[] are 
           smaller than smallest(or first) element of ar1[]*/
         else if (j == n) 
