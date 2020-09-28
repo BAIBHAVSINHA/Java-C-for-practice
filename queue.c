@@ -2,7 +2,6 @@
 #include<conio.h>
 #include<stdlib.h>
 #define MAX_SIZE 100
-
 int main()
 {
     int item, choice, i;
@@ -10,7 +9,6 @@ int main()
     int rear = 0;
     int front = 0;
     int exit = 1;
-
     printf("\nSimple Queue Example - Array");
     do 
     {
