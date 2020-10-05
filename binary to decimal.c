@@ -1,3 +1,6 @@
+Q.Convert binary to decimal?
+Sol:->
+		
 #include <stdio.h>
 void Binary(int);
 int main()
