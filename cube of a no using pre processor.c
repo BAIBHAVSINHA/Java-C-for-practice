@@ -1,3 +1,6 @@
+Q.Find cobe of a number using pre processor?
+ Sol:->
+  
 #include<stdio.h>
 #define SQ(x)(x*x)
 #define CU(x)(SQ(x)*x)
