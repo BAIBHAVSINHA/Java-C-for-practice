@@ -3,6 +3,7 @@ Q.Count no of zeros and ones in binary numbers?
         
 #include <stdio.h>
 #define INT_SIZE sizeof(int) * 12
+        
 int main()
 {
     int num, zeros, ones, i;
