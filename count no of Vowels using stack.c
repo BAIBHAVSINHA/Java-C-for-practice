@@ -1,4 +1,4 @@
-Q.Count no of vowels using slack?
+Q.Count no of vowels using stack?
     Sol:->
 #include <stdio.h>
 void main()
