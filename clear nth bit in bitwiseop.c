@@ -1,3 +1,5 @@
+Q.Clear nth bit in bitwise operator?
+    Sol:->
 #include <stdio.h>
 int main()
 {
