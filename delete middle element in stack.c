@@ -1,3 +1,5 @@
+Q.Delete middle element in stack?
+    Sol:->
 #include<stdio.h>
 #include<stdlib.h>
 struct Node
