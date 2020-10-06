@@ -1,3 +1,5 @@
+Q.Count no of vowels using slack?
+    Sol:->
 #include <stdio.h>
 void main()
 {
