@@ -1,3 +1,6 @@
+Q.2D Array pointers?
+    Sol:->
+        
 #include<stdio.h>
 int main()
 {
