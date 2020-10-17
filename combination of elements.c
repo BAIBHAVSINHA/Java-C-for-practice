@@ -1,3 +1,6 @@
+Q.Combination of elements?
+    Sol:->
+        
 #include<stdio.h>
 int combination(int n,int a)
 {
