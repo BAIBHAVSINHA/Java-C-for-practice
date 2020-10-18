@@ -1,4 +1,4 @@
-Q.Convert binary to decimal?
+Q.Conversion binary to decimal?
 Sol:->
 		
 #include <stdio.h>
