@@ -1,4 +1,5 @@
 Q. Aggregate the following?
+   Sol:->
    
 class Address
 {
