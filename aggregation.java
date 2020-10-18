@@ -1,3 +1,5 @@
+Q. Aggregate the following?
+   
 class Address
 {
    int streetNum;
