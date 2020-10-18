@@ -1,4 +1,6 @@
 Q. Conversion binary to decimal?
+    Sol:->
+        
 #include <stdio.h>
 int convertBinaryToDecimal(long long n);
 int main()
