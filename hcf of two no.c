@@ -1,3 +1,6 @@
+Q. HCF and LCM of two no?
+    Sol:->
+        
 #include <stdio.h>
 int main()
 {
