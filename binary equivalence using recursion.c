@@ -1,4 +1,5 @@
 Q. Binary Equivalence using recursion?
+   Sol:->
 #include<stdio.h>
 int binary(int);
 int main()
