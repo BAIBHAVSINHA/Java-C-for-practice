@@ -1,6 +1,7 @@
 Write a function to detect if two strings are anagrams ?
   Sol:->
 public static boolean isAcronym(String s1, String s2)
+    
   {
       if (s1.length() != s2.length()) return false;
 
@@ -16,6 +17,7 @@ public static boolean isAcronym(String s1, String s2)
            charCounts.put(s1.charAt(i), 1);
       }
       }
+    
       for (int i = 0; i < s2.length(); i++)
       {
         if (charCounts.containsKey(s2.charAt(i))) 
@@ -27,6 +29,7 @@ public static boolean isAcronym(String s1, String s2)
            return false;
         }
       }
+    
       for (int count : charCounts.values())
       {
         if (count != 0) return false;
