@@ -1,3 +1,4 @@
+Q. Binary Equivalence using recursion?
 #include<stdio.h>
 int binary(int);
 int main()
