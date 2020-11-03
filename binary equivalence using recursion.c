@@ -1,9 +1,8 @@
 Q. Binary Equivalence using recursion?
-   Sol:->
-      
-#include<stdio.h>
-int binary(int);
-int main()
+Sol:->      
+    #include<stdio.h>
+    int binary(int);
+    int main()
 {
    int num, bin;
    printf("Enter a decimal number: ");
