@@ -1,4 +1,7 @@
-public class addmatrix {
+Q.
+    Sol:->
+        
+    public class addmatrix {
     public static void main(String[] args) {
         int rows = 2, columns = 4;
 
