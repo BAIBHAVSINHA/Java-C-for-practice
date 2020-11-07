@@ -1,6 +1,5 @@
 Q. Segregate 0s and 1s in an array?
-  Sol:->
-    
+  Sol:->    
     using System; 
 class GFG {      
     // function to segregate 0s and 1s 
