@@ -1,4 +1,4 @@
-Q. Upper case
+Q. Upper case and lower case
 #include <stdio.h>
 int main()
 {
