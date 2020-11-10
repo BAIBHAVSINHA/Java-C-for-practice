@@ -1,3 +1,6 @@
+Q. Armstrong number?
+    Sol:->
+        
 public class armstrongno{
     public static void main(String[] args) {
 
