@@ -1,5 +1,6 @@
 Q. Upper case and lower case using string?
-   
+  Sol:->
+     
 #include <stdio.h>
 int main()
 {
