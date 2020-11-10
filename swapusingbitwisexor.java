@@ -1,3 +1,5 @@
+Q. Swap using bitwise XOR?
+    Sol:->
 import java.util.Scanner;
 public class swapusingbitwisexor
 {
