@@ -1,4 +1,5 @@
-Q. Upper case and lower case
+Q. Upper case and lower case using string?
+   
 #include <stdio.h>
 int main()
 {
