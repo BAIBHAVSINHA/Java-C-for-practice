@@ -1,4 +1,6 @@
-class test
+Q. Conersion?
+  Sol:->
+    class test
 {
 public static void main(string args[])
 {
